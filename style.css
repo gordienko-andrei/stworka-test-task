@@ -1,0 +1,92 @@
+body {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checklist {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 750px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgb(53, 121, 245);
+    margin-top: 25rem;
+}
+
+.circleBar-progress {
+    stroke-dasharray: 190;
+    stroke-dashoffset: 185;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.checklist-progressBar-content {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+    font-optical-sizing: auto;
+}
+
+.checklist-decription {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+    row-gap: 0.25rem;
+}
+
+.checklist-darkBlock {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+
+    padding: 0px 10px ;
+    border-radius: 40px;
+    background: rgb(35, 100, 219);
+}
+
+.checklist-completedActions {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 0.94rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+}
+
+.checklist-nextAction {
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}
+
+.openChecklist {
+    width: 170px;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    border-radius: 6px;
+    background-color: rgb(244, 248, 255);  
+
+    color: rgb(71, 119, 237);
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 0.88rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
